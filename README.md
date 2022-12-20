@@ -1,4 +1,4 @@
-# Gencode-cls-master-table
+# Gencode - CLS Master Table
 Here we specifically report on the results of the GENCODE pipeline to produce a collection of full length high quality transcript. 
 
 # Background
