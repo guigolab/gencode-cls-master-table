@@ -35,7 +35,7 @@ Each feature in the table is associated to a gene_id and transcript_id attribute
 The `transcript` features are additionally endowed with the following attributes:
 ||||
 |-|-|-|
-1 | target | comma-separated list of the genomic regions targeted by the pipeline. For each target we report, in order, the *source database*, the *identifier* in the aforementioned db, the *chromosome*, *start* and *end* coordinates, and the *strand*.
+1 | target | comma-separated list of the genomic regions targeted by the pipeline. For each target we report, in order, the *source database*, the *identifier*, the *chromosome*, *start* and *end* coordinates, and the *strand*.
 2 | endSupport | a value among **polyAOnlySupported**, **cageOnlySupported**, **cagePolyASupported**, **noCageNoPolyASupported**, indicating the type of support available for the transcript model.
 3 | spliced | either **spliced** or **unspliced**, indicating whether the associated transcript model is composed of different exons or remains unspliced.
 4 | refCompare | result of gffcompare against Gencode annotation *v24*. The original codes have been further collapsed to obtain the following categories: **Antisense** (corresponding gff codes *s, x*), **Equal** (*=*), **Extends** (*k*), **Included** (*c*), **Intergenic** (*y,p,u*), **Intronic** (*i*), **Overlaps** (*j,e,m,o,n*).
