@@ -57,5 +57,4 @@ Some examples of aliases and their meaning
  * SIDHPlPPP0202: SID human placenta placenta pacbio precaptur biologicalReplicate02 technicalReplicate02
 
 # Quickstart
-To interrogate the file by sample ID, regex expressions can be used. 
-Use the following script to easily [extract the tags](https://github.com/abreschi/utils/blob/master/extract.gtf.tags.sh) from the GTF file
+The following script is readily available to [extract the tags](https://github.com/abreschi/utils/blob/master/extract.gtf.tags.sh) from the GTF file.
