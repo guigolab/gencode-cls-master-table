@@ -2,9 +2,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#gencode---cls-master-table">Gencode - CLS Master TableAbout The Project</a>
-    </li>
+    <li><a href="#gencode---cls-master-table">Gencode - CLS Master TableAbout The Project</a> </li>
     <li><a href="#background">Background</a></li>
     <li>
       <a href="#master-tables">Master Tables</a>
@@ -15,9 +13,9 @@
             <li><a href="#tissue-codes">Tissue Codes</a></li>
           </ol>
         </li>
-      </lo>
-    </li>
-    <li><a href="#quickstart">Quickstart</a></li>
+      </ol>
+    </il>
+    <li><a href="#quickstart">Quickstart</a></il>
     </lo>
 </details>
 
