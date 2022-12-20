@@ -46,16 +46,16 @@ The `transcript` features are additionally endowed with the following attributes
 
 # Samples Metadata
 The samples IDs have been generated in a way to keep track of as many metadata as possible. The names are composed as follows:
-|||||
-|-|-|-|-|
-0 | Sample ID | Fixed prefix | SID
-1 | Organism | Single letter code for the organism | **H** (human), **M** (mouse)
-2 | Tissue | Two letter code indicating the tissue | See [Tissue codes](#tissue-codes)
-3 | Stage  | Single letter code for the stage | **A** (adult), **E** (embryo), **P** (placenta)
-4 | Sequencing Technology | Single letter code for the sequencing technology | **O** (Oxford-nanopore), **P** (PacBio)
-5 | Capture status  | Single letter code for capture | **P** (pre-capture), **C** (post-capture)
-6 | Biological Replica | Two digit code for the biological replica | - |
-7 | Technical Replica | Two digit code for the technical replica | - |
+||||
+|-|-|-|
+0 | Fixed prefix | SID
+1 | Single letter code for the organism | **H** (human), **M** (mouse)
+2 | Two letter code indicating the tissue | See [Tissue codes](#tissue-codes)
+3 | Single letter code for the stage | **A** (adult), **E** (embryo), **P** (placenta)
+4 | Single letter code for the sequencing technology | **O** (Oxford-nanopore), **P** (PacBio)
+5 | Single letter code for capture status | **P** (pre-capture), **C** (post-capture)
+6 | Two digit code for the biological replica | - 
+7 | Two digit code for the technical replica | - 
 
 # Tissue Codes
 |||
@@ -72,9 +72,9 @@ Tpool | Tp
 Cpool | Cp
 
 Some examples of aliases and their meaning
- * SIDMBrEPP0101: SID mouse brain embryo pacbio precaptur biologicalReplicate01 technicalReplicate01
- * SIDHWbAOC0103: SID human whiteBlood adult ont postcaptur biologicalReplicate01 technicalReplicate03
- * SIDHPlPPP0202: SID human placenta placenta pacbio precaptur biologicalReplicate02 technicalReplicate02
+ * `SIDMBrEPP0101`: mouse brain embryo PacBio pre-captur biologicalReplicate01 technicalReplicate01
+ * `SIDHWbAOC0103`: human whiteBlood adult ont post-captur biologicalReplicate01 technicalReplicate03
+ * `SIDHPlPPP0202`: human placenta placenta PacBio pre-captur biologicalReplicate02 technicalReplicate02
 
 # Quickstart
 The following script is readily available to [extract the tags](https://github.com/abreschi/utils/blob/master/extract.gtf.tags.sh) from the GTF file.
