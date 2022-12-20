@@ -21,7 +21,7 @@ The `transcript` features are additionally endowed with the following attributes
 4 | refCompare | result of gffcompare against Gencode annotation *v24*. The original codes have been further collapsed to obtain the follwing categories: **Antisense** (corresponding gff codes *s, x*), **Equal** (*=*), **Extends** (*k*), **Included** (*c*), **Intergenic** (*y,p,u*), **Intronic** (*i*), **Overlaps** (*j,e,m,o,n*).
 5 | currentCompare | result of gffcompare against Gencode annotation *v41* (same categories as before). 
 6 | sampleN | integer value indicating the number of samples in which these transcript was encountered.
-7 | samplesMetadata | a list of mnemotechnics unique sample IDs. See [Samples Metadata](# Samples Metadata)
+7 | samplesMetadata | a list of mnemotechnics unique sample IDs. See [Samples Metadata](#-Samples-Metadata)
 8 | expression | decimal value corresponding to the level of the expression of the transcript in the given sample, expressed as RPM.
 
 # Samples Metadata
