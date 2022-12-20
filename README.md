@@ -29,20 +29,33 @@ The samples IDs have been generated in a way to keep track of as many metadata a
 |||||
 |-|-|-|-|
 0 | Sample ID | Fixed prefix | SID
-1 | Organism | Single letter code for the organism |
+1 | Organism | Single letter code for the organism | **H** (human), **M** (mouse)
+2 | Tissue | Two letter code indicating the tissue | See [Tissue codes](#tissue-codes)
+3 | Stage  | Single letter code for the stage | **A** (adult), **E** (embryo), **P** (placenta)
+4 | Sequencing Technology | Single letter code for the sequencing technology | **O** (Oxford-nanopore), **P** (PacBio)
+5 | Capture status  | Single letter code for capture | **P** (pre-capture), **C** (post-capture)
+6 | Biological Replica | Two digit code for the biological replica | - |
+7 | Technical Replica | Two digit code for the technical replica | - |
 
-Alias for sample id 
-SIDMBrEPP0101  -> mouse brain embryo pacbio precaptur biologicalReplicate01 technicalReplicate01
-SIDHBrAPC0301  -> human brain adult pacbio postcaptur biologicalReplicate03 technicalReplicate01
-SIDHWbAOC0103  -> human whiteBlood adult ont postcaptur biologicalReplicate01 technicalReplicate03
-SIDHPlPPP0202  -> human placenta placenta pacbio precaptur biologicalReplicate02 technicalReplicate02
+# Tissue Codes
+|||
+|-|-|
+Brain | Br
+Heart | He
+Liver | Li
+WBCs | Wb
+ESC | Wb
+iPSC | Wb
+Testis | Te
+Placenta | Pl
+Tpool | Tp
+Cpool | Cp
 
-Tissue codes
-Brain -> Br
-Heart -> He
-Liver -> Li
-WBCs/ESC/iPSC -> Wb
-Testis -> Te
-Placenta -> Pl
-Tpool -> Tp
-Cpool -> Cp
+Some examples of aliases and their meaning
+ * Item 1; SIDMBrEPP0101: SID mouse brain embryo pacbio precaptur biologicalReplicate01 technicalReplicate01
+ * Item 2; SIDHWbAOC0103: SID human whiteBlood adult ont postcaptur biologicalReplicate01 technicalReplicate03
+ * Item 3; SIDHPlPPP0202: SID human placenta placenta pacbio precaptur biologicalReplicate02 technicalReplicate02
+
+# Quickstart
+To interrogate the file by sample ID, regex expressions can be used. 
+Use the following script to easily [extract the tags](https://github.com/abreschi/utils/blob/master/extract.gtf.tags.sh) from the GTF file
