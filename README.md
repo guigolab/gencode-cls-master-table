@@ -1,3 +1,23 @@
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#gencode---cls-master-table">Gencode - CLS Master TableAbout The Project</a>
+    </li>
+    <li><a href="#background">Background</a></li>
+    <li>
+      <a href="#master-tables">Master Tables</a>
+      <ol>
+        <li><a href="#attributes-specifics">Attributes specifics</a>
+          <ol>
+            <li><a href="#samples-metadata">Samples Metadata</a></li>
+            <li><a href="#tissue-codes">Tissue Codes</a></li>
+          </ol>
+        </li>
+        <li><a href="#quickstart">Quickstart</a></li>
+</details>
+
 # Gencode - CLS Master Table
 Here we specifically report on the results of the GENCODE pipeline to produce a collection of full length high quality transcript. 
 
