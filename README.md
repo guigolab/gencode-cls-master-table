@@ -15,7 +15,9 @@
             <li><a href="#tissue-codes">Tissue Codes</a></li>
           </ol>
         </li>
-        <li><a href="#quickstart">Quickstart</a></li>
+      </lo>
+    </li>
+    <li><a href="#quickstart">Quickstart</a></li>
 </details>
 
 # Gencode - CLS Master Table
