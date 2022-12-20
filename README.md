@@ -38,11 +38,29 @@ The `transcript` features are additionally endowed with the following attributes
 1 | target | comma-separated list of the genomic regions targeted by the pipeline. For each target we report, in order, the *source database*, the *identifier* in the aforementioned db, the *chromosome*, *start* and *end* coordinates, and the *strand*.
 2 | endSupport | a value among **polyAOnlySupported**, **cageOnlySupported**, **cagePolyASupported**, **noCageNoPolyASupported**, indicating the type of support available for the transcript model.
 3 | spliced | either **spliced** or **unspliced**, indicating whether the associated transcript model is composed of different exons or remains unspliced.
-4 | refCompare | result of gffcompare against Gencode annotation *v24*. The original codes have been further collapsed to obtain the follwing categories: **Antisense** (corresponding gff codes *s, x*), **Equal** (*=*), **Extends** (*k*), **Included** (*c*), **Intergenic** (*y,p,u*), **Intronic** (*i*), **Overlaps** (*j,e,m,o,n*).
+4 | refCompare | result of gffcompare against Gencode annotation *v24*. The original codes have been further collapsed to obtain the following categories: **Antisense** (corresponding gff codes *s, x*), **Equal** (*=*), **Extends** (*k*), **Included** (*c*), **Intergenic** (*y,p,u*), **Intronic** (*i*), **Overlaps** (*j,e,m,o,n*).
 5 | currentCompare | result of gffcompare against Gencode annotation *v41* (same categories as before). 
 6 | sampleN | integer value indicating the number of samples in which these transcript was encountered.
 7 | samplesMetadata | a list of mnemotechnics unique sample IDs. See [Samples Metadata](#samples-metadata)
 8 | expression | decimal value corresponding to the level of the expression of the transcript in the given sample, expressed as RPM.
+
+
+<table>
+<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
+<tr><td>
+
+|Table 1| Middle | Table 2|
+|--|--|--|
+|a| not b|and c |
+
+</td><td>
+
+|b|1|2|3| 
+|--|--|--|--|
+|a|s|d|f|
+
+</td></tr> </table>
+
 
 ### Samples Metadata
 The samples IDs have been generated in a way to keep track of as many metadata as possible. The names are composed as follows:
