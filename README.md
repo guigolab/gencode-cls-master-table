@@ -44,24 +44,6 @@ The `transcript` features are additionally endowed with the following attributes
 7 | samplesMetadata | a list of mnemotechnics unique sample IDs. See [Samples Metadata](#samples-metadata)
 8 | expression | decimal value corresponding to the level of the expression of the transcript in the given sample, expressed as RPM.
 
-
-<table>
-<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
-<tr><td>
-
-|Table 1| Middle | Table 2|
-|--|--|--|
-|a| not b|and c |
-
-</td><td>
-
-|b|1|2|3| 
-|--|--|--|--|
-|a|s|d|f|
-
-</td></tr> </table>
-
-
 ### Samples Metadata
 The samples IDs have been generated in a way to keep track of as many metadata as possible. The names are composed as follows:
 ||||
