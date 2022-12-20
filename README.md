@@ -52,9 +52,9 @@ Tpool | Tp
 Cpool | Cp
 
 Some examples of aliases and their meaning
- * Item 1; SIDMBrEPP0101: SID mouse brain embryo pacbio precaptur biologicalReplicate01 technicalReplicate01
- * Item 2; SIDHWbAOC0103: SID human whiteBlood adult ont postcaptur biologicalReplicate01 technicalReplicate03
- * Item 3; SIDHPlPPP0202: SID human placenta placenta pacbio precaptur biologicalReplicate02 technicalReplicate02
+ * SIDMBrEPP0101: SID mouse brain embryo pacbio precaptur biologicalReplicate01 technicalReplicate01
+ * SIDHWbAOC0103: SID human whiteBlood adult ont postcaptur biologicalReplicate01 technicalReplicate03
+ * SIDHPlPPP0202: SID human placenta placenta pacbio precaptur biologicalReplicate02 technicalReplicate02
 
 # Quickstart
 To interrogate the file by sample ID, regex expressions can be used. 
