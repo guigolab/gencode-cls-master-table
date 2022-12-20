@@ -49,27 +49,27 @@ The samples IDs have been generated in a way to keep track of as many metadata a
 ||||
 |-|-|-|
 0 | Fixed prefix | SID
-1 | Single letter code for the organism | **H** (human), **M** (mouse)
+1 | Single letter code for the organism | `H` (human), `M` (mouse)
 2 | Two letter code indicating the tissue | See [Tissue codes](#tissue-codes)
-3 | Single letter code for the stage | **A** (adult), **E** (embryo), **P** (placenta)
-4 | Single letter code for the sequencing technology | **O** (Oxford-nanopore), **P** (PacBio)
-5 | Single letter code for capture status | **P** (pre-capture), **C** (post-capture)
+3 | Single letter code for the stage | `A` (adult), `E` (embryo), `P` (placenta)
+4 | Single letter code for the sequencing technology | `O` (ont), `P` (PacBio)
+5 | Single letter code for capture status | `P` (pre-capture), `C` (post-capture)
 6 | Two digit code for the biological replica | - 
 7 | Two digit code for the technical replica | - 
 
 ### Tissue Codes
 |||
 |-|-|
-Brain | Br
-Heart | He
-Liver | Li
-WBCs | Wb
-ESC | Wb
-iPSC | Wb
-Testis | Te
-Placenta | Pl
-Tpool | Tp
-Cpool | Cp
+Brain | `Br`
+Heart | `He`
+Liver | `Li`
+WBCs | `Wb`
+ESC | `Wb`
+iPSC | `Wb`
+Testis | `Te`
+Placenta | `Pl`
+Tpool | `Tp`
+Cpool | `Cp`
 
 Some examples of aliases and their meaning
  * `SIDMBrEPP0101`: mouse brain embryo PacBio pre-captur biologicalReplicate01 technicalReplicate01
