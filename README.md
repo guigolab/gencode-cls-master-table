@@ -18,6 +18,7 @@
       </lo>
     </li>
     <li><a href="#quickstart">Quickstart</a></li>
+    </lo>
 </details>
 
 # Gencode - CLS Master Table
