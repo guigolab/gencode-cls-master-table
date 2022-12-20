@@ -72,9 +72,9 @@ Tpool | `Tp`
 Cpool | `Cp`
 
 Some examples of aliases and their meaning
- * `SIDMBrEPP0101`: mouse brain embryo PacBio pre-captur biologicalReplicate01 technicalReplicate01
- * `SIDHWbAOC0103`: human whiteBlood adult ont post-captur biologicalReplicate01 technicalReplicate03
- * `SIDHPlPPP0202`: human placenta placenta PacBio pre-captur biologicalReplicate02 technicalReplicate02
+ * `SIDMBrEPP0101`: mouse brain embryo PacBio pre-capture biologicalReplicate01 technicalReplicate01
+ * `SIDHWbAOC0103`: human whiteBlood adult ont post-capture biologicalReplicate01 technicalReplicate03
+ * `SIDHPlPPP0202`: human placenta placenta PacBio pre-capture biologicalReplicate02 technicalReplicate02
 
 ## Quickstart
 The following script is readily available to [extract the tags](https://github.com/abreschi/utils/blob/master/extract.gtf.tags.sh) from the GTF file.
