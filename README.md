@@ -28,10 +28,10 @@ We employed CLS to target genomic regions with apparently weak, but potentially 
 Metadata are provided as tsv files, while feature tables follow the canonical GTF format.
 
 - Human
-  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/asset-name.zip)
+  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_masterTable.gtf.gz)
   - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_metadata.tsv.gz)
 - Mouse
-  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/asset-name.zip)
+  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_masterTable.gtf.gz)
   - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_metadata.tsv.gz)
   
 ## Attributes specifics
