@@ -47,7 +47,7 @@ The `transcript` features are additionally endowed with the following attributes
 4 | refCompare | result of gffcompare against Gencode annotation *v24* for human and *vM7* for mouse. The original codes have been further collapsed to obtain the following categories: **Antisense** (corresponding gffcompare codes s, x), **Equal** (=), **Extends** (k), **Included** (c), **Intergenic** (y, p, u), **Intronic** (i), **Overlaps** (j, e, m, o, n).
 5 | currentCompare | result of gffcompare against Gencode annotation *v41* for human and *vM30* for mouse, same categories as before. 
 6 | sampleN | integer value indicating the number of transcripts across all samples merged into the respective transcript model
-7 | samplesMetadata | a list of mnemotechnics for the sample IDs that the "contained" transcripts are encountered in. See [Samples Metadata](#samples-metadata)
+7 | samplesMetadata | a list of mnemotechnics samples IDs the collapsed transcripts were encountered in. See [Samples Metadata](#samples-metadata)
 8 | expression | decimal value corresponding to the expression level of the transcript, expressed as RPM. The order of the values matches the order of the samples the transcript belongs to in the previous tag.
 
 ### Samples Metadata
