@@ -60,8 +60,8 @@ The samples IDs have been generated in a way to keep track of as many metadata a
 3 | Single letter code for the stage | `A` (adult), `E` (embryo), `P` (placenta)
 4 | Single letter code for the sequencing technology | `O` (ont), `P` (PacBio)
 5 | Single letter code for capture status | `P` (pre-capture), `C` (post-capture)
-6 | Two digit code for the biological replica | - 
-7 | Two digit code for the technical replica | - 
+6 | Two digit code for the biological replicate | - 
+7 | Two digit code for the technical replicate | - 
 
 ### Tissue Codes
 |||
