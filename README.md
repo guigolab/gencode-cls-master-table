@@ -29,11 +29,13 @@ We employed [CLS](https://link.springer.com/protocol/10.1007/978-1-0716-1158-6_9
 Metadata are provided as tsv files, while feature tables follow the canonical GTF format.
 
 - Human
-  - Feature Table; [GTF](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_masterTable.gtf.gz), [tsv](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/), [fasta](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_masterTable.fa.gz) format.
+  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_masterTable.gtf.gz), 
+  - [Transcript Models Sequences](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_masterTable.fa.gz)
   - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_metadata.tsv.gz)
   
 - Mouse
-  - Feature Table; [GTF](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_masterTable.gtf.gz), [tsv](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/), [fasta](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_masterTable.fa.gz) format.
+  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_masterTable.gtf.gz)
+  - [Transcript Models Sequences](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_masterTable.fa.gz) format.
   - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_metadata.tsv.gz)
   
 ## Attributes specifics
