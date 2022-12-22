@@ -48,7 +48,7 @@ The `transcript` features are additionally endowed with the following attributes
 5 | currentCompare | result of gffcompare against Gencode annotation *v41* for human and *vM30* for mouse, same categories as before. 
 6 | sampleN | integer value indicating the number of transcripts across all samples merged into the respective transcript model
 7 | samplesMetadata | a list of mnemotechnics for the sample IDs that the "contained" transcripts are encountered in. See [Samples Metadata](#samples-metadata)
-8 | expression | decimal value corresponding to the expression level of the transcript, expressed as RPM. The order of the values matches the order of the samples in the previous tag.
+8 | expression | decimal value corresponding to the expression level of the transcript, expressed as RPM. The order of the values matches the order of the samples the transcript belongs to in the previous tag.
 
 ### Samples Metadata
 The samples IDs have been generated in a way to keep track of as many metadata as possible. The names are composed as follows:
