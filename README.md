@@ -35,7 +35,7 @@ Metadata are provided as tsv files, while feature tables follow the canonical GT
   
 - Mouse
   - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_masterTable.gtf.gz)
-  - [Transcript Models Sequences](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_masterTable.fa.gz) format.
+  - [Transcript Models Sequences](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_masterTable.fa.gz)
   - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_metadata.tsv.gz)
   
 ## Attributes specifics
