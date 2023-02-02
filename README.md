@@ -10,8 +10,7 @@ Here we specifically report on the results of the GENCODE pipeline to produce a 
     <li>
       <a href="#data">Data</a>
       <ul>
-        <li><a href="#master-tables">Master Tables</a></li>
-        <li><a href="#supplementary-tables">Supplementary Tables</a></li>
+        <li><a href="#tables">Tables</a></li>
       </ul>
       <ul>
         <li><a href="#attributes-specifics">Attributes specifics</a>
