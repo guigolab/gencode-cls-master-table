@@ -8,7 +8,7 @@ Here we specifically report on the results of the GENCODE pipeline to produce a 
   <ul>
     <li><a href="#background">Background</a></li>
     <li>
-      <a href="#data">Data>
+      <a href="#data">Data</a>
       <ul>
         <li><a href="#attributes-specifics">Attributes specifics</a>
           <ul>
