@@ -29,24 +29,24 @@ We employed [CLS](https://link.springer.com/protocol/10.1007/978-1-0716-1158-6_9
 ### Tables
 
 - Human
-  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_masterTable.gtf.gz)
+  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/download/GencodeCLS_v1.0/Hv3_masterTable.gtf.gz)
   - [Unique Intron Chain Table]() (coming soon)
-  - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_metadata.tsv.gz)
+  - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/download/GencodeCLS_v1.0/Hv3_metadata.tsv.gz)
   
 - Mouse
-  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_masterTable.gtf.gz)
+  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/download/GencodeCLS_v1.0/Mv2_masterTable.gtf.gz)
   - [Unique Intron Chain Table]() (coming soon)
-  - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_metadata.tsv.gz)
+  - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/download/GencodeCLS_v1.0/Mv2_metadata.tsv.gz)
 
 ### Supplementary Tables
 
 - Human
-  - [Transcript Models Sequences](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_masterTable.fa.gz)
+  - [Transcript Models Sequences](https://github.com/guigolab/gencode-cls-master-table/releases/download/Supplementary/Hv3_masterTable.fa.gz)
   - [Mitocondrial Transcript Models]() (coming soon)
   - [SIRVs and ERCC Tables]() (coming soon)
   
 - Mouse
-  - [Transcript Models Sequences](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_masterTable.fa.gz)
+  - [Transcript Models Sequences](https://github.com/guigolab/gencode-cls-master-table/releases/download/Supplementary/Mv2_masterTable.fa.gz)
   - [Mitocondrial Transcript Models]() (coming soon)
   - [SIRVs and ERCC Tables]() (coming soon)
 
