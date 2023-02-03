@@ -29,7 +29,7 @@ We employed [CLS](https://link.springer.com/protocol/10.1007/978-1-0716-1158-6_9
 ### Tables
 
 - Human
-  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/download/GencodeCLS_v1.0/Hv3_masterTable.gtf.gz)
+  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_masterTable.gtf.gz)
   - [Unique Intron Chain Table]() (coming soon)
   - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/download/GencodeCLS_v1.0/Hv3_metadata.tsv.gz)
   
