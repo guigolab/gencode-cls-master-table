@@ -31,12 +31,12 @@ We employed [CLS](https://link.springer.com/protocol/10.1007/978-1-0716-1158-6_9
 
 - Human
   - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_masterTable.gtf.gz)
-  - [Unique Intron Chain Table]()
+  - [Unique Intron Chain Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/GencodeCLS_v1.0/Hv3_splicedmasterTable_ICs.gtf.gz)
   - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_metadata.tsv.gz)
   
 - Mouse
   - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_masterTable.gtf.gz)
-  - [Unique Intron Chain Table]()
+  - [Unique Intron Chain Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/GencodeCLS_v1.0/Mv2_splicedmasterTable_ICs.gtf.gz)
   - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_metadata.tsv.gz)
 
 ### Supplementary Tables
