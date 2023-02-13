@@ -54,7 +54,7 @@ We employed [CLS](https://link.springer.com/protocol/10.1007/978-1-0716-1158-6_9
 ### Enhanced Annotation
 The enhanced annotation has been obtained by merging, for each species, the latest annotation provided by Gencode with the features collected with our procedure.
 
-- Human [v42](https://github.com/guigolab/gencode-cls-master-table/releases/download/EnhancedAnnotation/), [v27]()
+- Human [v42](https://github.com/guigolab/gencode-cls-master-table/releases/download/EnhancedAnnotation/), [v27](https://github.com/guigolab/gencode-cls-master-table/releases/download/EnhancedAnnotation/Hv3_enhancedCLS3+gencodev27.loci.refmerged.gff.gz)
 - Mouse [vM16](https://github.com/guigolab/gencode-cls-master-table/releases/download/EnhancedAnnotation/), [vM31]()(coming soon)
 
 ## Attributes specifics
