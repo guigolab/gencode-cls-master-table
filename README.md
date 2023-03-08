@@ -42,13 +42,13 @@ We employed [CLS](https://link.springer.com/protocol/10.1007/978-1-0716-1158-6_9
 ### Supplementary Tables
 
 - Human
-  - [Target design]()
+  - [Target design](https://github.com/guigolab/gencode-cls-master-table/releases/download/Supplementary/Hv3_CLS3_targetDesign.gtf.gz)
   - [Transcript Models Sequences](https://github.com/guigolab/gencode-cls-master-table/releases/download/Supplementary/Hv3_masterTable.fa.gz)
   - [Mitocondrial Transcript Models]() (coming soon)
   - [SIRVs and ERCC Tables]() (coming soon)
   
 - Mouse
-  - [Target design]()
+  - [Target design](https://github.com/guigolab/gencode-cls-master-table/releases/download/Supplementary/Mv2_CLS3_targetDesign.gtf.gz)
   - [Transcript Models Sequences](https://github.com/guigolab/gencode-cls-master-table/releases/download/Supplementary/Mv2_masterTable.fa.gz)
   - [Mitocondrial Transcript Models]() (coming soon)
   - [SIRVs and ERCC Tables]() (coming soon)
