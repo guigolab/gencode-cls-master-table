@@ -16,6 +16,7 @@ Here we specifically report on the results of the GENCODE pipeline to produce a 
     <li><a href="#attributes-specifics">Attributes specifics</a>
       <ul>
         <li><a href="#samples-metadata">Samples Metadata</a></li>
+        <li><a href="#artefacts-tags">Artefacts Tags</a></li>
         <li><a href="#tissue-codes">Tissue Codes</a></li>
       </ul>
     </li>
@@ -58,7 +59,7 @@ We employed [CLS](https://link.springer.com/protocol/10.1007/978-1-0716-1158-6_9
 ### Enhanced Annotation
 The enhanced annotation has been obtained by merging, for each species, the latest annotation provided by Gencode with the features collected with our procedure.
 
-- Human [v42](https://github.com/guigolab/gencode-cls-master-table/releases/download/EnhancedAnnotation/Hv3_enhancedCLS3+gencodev42.loci.refmerged.gff.gz), [v27](https://github.com/guigolab/gencode-cls-master-table/releases/download/EnhancedAnnotation/Hv3_enhancedCLS3+gencodev27.loci.refmerged.gff.gz)
+- Human [v43](https://github.com/guigolab/gencode-cls-master-table/releases/download/EnhancedAnnotation/), [v27](https://github.com/guigolab/gencode-cls-master-table/releases/download/EnhancedAnnotation/Hv3_enhancedCLS3+gencodev27.loci.refmerged.gff.gz)
 - Mouse [vM31]()(coming soon), [vM16](https://github.com/guigolab/gencode-cls-master-table/releases/download/EnhancedAnnotation/Mv2_enhancedCLS3+gencodevM16.loci.refmerged.gff.gz)
 
 ## Attributes specifics
@@ -69,11 +70,13 @@ The `transcript` features are additionally endowed with the following attributes
 1 | target | comma-separated list of the genomic regions targeted by the pipeline. For each target we report, in order, the *source database*, the *identifier*, the *chromosome*, *start* and *end* coordinates, and the *strand*.
 2 | endSupport | a value among **polyAOnlySupported**, **cageOnlySupported**, **cagePolyASupported**, **noCageNoPolyASupported**, indicating the type of support available for the transcript model.
 3 | spliced | either **spliced** or **unspliced**, indicating whether the associated transcript model is composed of different exons or remains unspliced.
-4 | refCompare | result of gffcompare against Gencode annotation *v27* for human and *vM16* for mouse. The original codes have been further collapsed to obtain the following categories: **Antisense** (corresponding gffcompare codes s, x), **Equal** (=), **Extends** (k), **Included** (c), **Intergenic** (u), **Intronic** (i), **revIntronic** (y), **Overlaps** (j, e, m, o, n), **runOn** (p) 
-5 | currentCompare | result of gffcompare against Gencode annotation *v42* for human and *vM31* for mouse, same categories as above. 
+4 | refCompare | result of gffcompare against Gencode annotation *v27* for human and *vM16* for mouse. The original codes have been further collapsed to obtain the following categories: **Antisense** (corresponding gffcompare codes s, x), **Equal** (=), **Extends** (k), **Included** (c), **Intergenic** (u), **Intronic** (i), **revIntronic** (y), **Overlaps** (j, e, m, o, n), **runOn** (p)
+5 | currentCompare | result of gffcompare against Gencode annotation *v43* for human and *vM31* for mouse, same categories as above. 
 6 | sampleN | integer value indicating the number of transcripts across all samples merged into the respective transcript model
 7 | samplesMetadata | a list of mnemotechnics samples IDs the collapsed transcripts were encountered in. See [Samples Metadata](#samples-metadata)
 8 | expression | decimal value corresponding to the expression level of the transcript, expressed as RPM. The order of the values matches the order of the samples the transcript belongs to in the previous tag.
+9 | artifact | list of tags reflecting whether the model is deemed artefactual and why. See [Artefact Tags](#artefacts-tags)
+
 
 ### Samples Metadata
 The samples IDs have been generated in a way to keep track of as many metadata as possible. The names are composed as follows:
