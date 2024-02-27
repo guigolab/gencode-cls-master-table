@@ -72,7 +72,7 @@ The `transcript` features are additionally endowed with the following attributes
 6 | sampleN | integer value indicating the number of transcripts across all samples merged into the respective transcript model
 7 | samplesMetadata | a list of mnemotechnics samples IDs the collapsed transcripts were encountered in. See [Samples Metadata](#samples-metadata)
 8 | expression | decimal value corresponding to the expression level of the transcript, expressed as RPM. The order of the values matches the order of the samples the transcript belongs to in the previous tag.
-9 | artifact | list of tags reflecting whether the model is deemed artefactual and why. See [Artefact Tags](#artefacts-tags)
+9 | artifact | list of tags reflecting whether the model is deemed artefactual and why. See [Artefacts Tags](#artefacts-tags)
 
 ### Samples Metadata
 The samples IDs have been generated in a way to keep track of as many metadata as possible. The names are composed as follows:
@@ -88,7 +88,7 @@ The samples IDs have been generated in a way to keep track of as many metadata a
 7 | Two digit code for the technical replicate | - 
 
 
-### Artefact Tags
+### Artefacts Tags
 ||||
 |-|-|-|
 0 | no | Genuine model.
