@@ -74,7 +74,6 @@ The `transcript` features are additionally endowed with the following attributes
 8 | expression | decimal value corresponding to the expression level of the transcript, expressed as RPM. The order of the values matches the order of the samples the transcript belongs to in the previous tag.
 9 | artifact | list of tags reflecting whether the model is deemed artefactual and why. See [Artefact Tags](#artefacts-tags)
 
-
 ### Samples Metadata
 The samples IDs have been generated in a way to keep track of as many metadata as possible. The names are composed as follows:
 ||||
@@ -87,6 +86,18 @@ The samples IDs have been generated in a way to keep track of as many metadata a
 5 | Single letter code for capture status | `P` (pre-capture), `C` (post-capture)
 6 | Two digit code for the biological replicate | - 
 7 | Two digit code for the technical replicate | - 
+
+
+### Artefact Tags
+||||
+|-|-|-|
+0 | no | Genuine model.
+1 | oppStrandMismap | i.e., Opposite strand mismapping. Models mapping on opposite strand of annotated coding loci.
+2 | polyASJdisag | i.e., PolyA - Splice Junction disagreement. Highlights possible problems during mapping steps, where polyA and splice junction provide contradictory information over the read strand.
+3 | pseudogeneOverlap | Models contained within an annotated pseudogene locus. This are supposedly generated from parent gene but wrongly assigned due to the polyA stretch at 3'.
+4 | recountSlt50 | Models in which any of the splice junctions doesn't meet the minimum threshold of recount support (50).
+5 | spliceSiteMisalign | i.e., Splice site misalignments. Highlights uncertainty in splice junction placement at mapping.
+6 | tRepeatOverlap | i.e., Tandem repeat overlapping.
 
 ### Tissue Codes
 |||
