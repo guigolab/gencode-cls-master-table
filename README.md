@@ -31,13 +31,13 @@ We employed [CLS](https://link.springer.com/protocol/10.1007/978-1-0716-1158-6_9
 ### Tables
 
 - Human
-  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_masterTable_refined.gtf.gz)
+  - [Feature Table/Master Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_masterTable_refined.gtf.gz)
   - [Unique Intron Chain Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_splicedmasterTable_refined.gtf.gz)
   - [Unique Unspliced Chain Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Hv3_unsplicedmasterTable_refined.gtf.gz)
   - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/download/GencodeCLS_v1.0/Hv3_metadata.tsv.gz)
   
 - Mouse
-  - [Feature Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_masterTable_refined.gtf.gz)
+  - [Feature Table/Master Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_masterTable_refined.gtf.gz)
   - [Unique Intron Chain Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_splicedmasterTable_refined.gtf.gz)
   - [Unique Unspliced Chain Table](https://github.com/guigolab/gencode-cls-master-table/releases/latest/download/Mv2_unsplicedmasterTable_refined.gtf.gz)
   - [Metadata](https://github.com/guigolab/gencode-cls-master-table/releases/download/GencodeCLS_v1.0/Mv2_metadata.tsv.gz)
