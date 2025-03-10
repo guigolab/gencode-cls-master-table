@@ -47,10 +47,12 @@ We employed [CLS](https://link.springer.com/protocol/10.1007/978-1-0716-1158-6_9
 
 - Human
   - [Target design](https://github.com/guigolab/gencode-cls-master-table/releases/download/Supplementary/Hv3_CLS3_targetDesign.gtf.gz)
+  - [Target design - merged](https://github.com/guigolab/gencode-cls-master-table/releases/download/Supplementary/Hv3_CLS3_targetDesign_mergedRegions.gtf.gz)
   - [Transcript Models Sequences](https://github.com/guigolab/gencode-cls-master-table/releases/download/GencodeCLS_v2.1/Hv3_masterTable.fa.gz)
   
 - Mouse
   - [Target design](https://github.com/guigolab/gencode-cls-master-table/releases/download/Supplementary/Mv2_CLS3_targetDesign.gtf.gz)
+  - [Target design - merged](https://github.com/guigolab/gencode-cls-master-table/releases/download/Supplementary/Mv2_CLS3_targetDesign_mergedRegions.gtf.gz)
   - [Transcript Models Sequences](https://github.com/guigolab/gencode-cls-master-table/releases/download/GencodeCLS_v2.1/Mv2_masterTable.fa.gz)
 
 ### Enhanced Annotation
